@@ -1,17 +1,20 @@
 [
   {
-    "id": "anitkabir",
-    "name": "Anıtkabir",
-    "lat": 39.9251,
-    "lng": 32.8369,
-    "description": "Mustafa Kemal Atatürk'ün anıt mezarı."
+    "id": "ankara-kalesi",
+    "name": "Ankara Kalesi",
+    "lat": 39.9414,
+    "lng": 32.8654,
+    "image": "/images/ankara-kalesi.jpg",
+    "description": "Ankara Kalesi."
   },
   {
     "id": "atakule",
     "name": "Atakule",
     "lat": 39.8938,
     "lng": 32.8600,
+    "image": "/images/atakule.jpg",
     "description": "Ankara'nın sembol kulelerinden biri."
   }
 ]
+
 
