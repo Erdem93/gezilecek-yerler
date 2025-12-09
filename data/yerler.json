@@ -1,0 +1,18 @@
+[
+  {
+    "id": "anitkabir",
+    "name": "Anıtkabir",
+    "lat": 39.9251,
+    "lng": 32.8369,
+    "image": "/images/anitkabir.jpg",
+    "description": "Mustafa Kemal Atatürk'ün anıt mezarı."
+  },
+  {
+    "id": "atakule",
+    "name": "Atakule",
+    "lat": 39.8938,
+    "lng": 32.8600,
+    "image": "/images/atakule.jpg",
+    "description": "Ankara'nın sembol kulelerinden biri."
+  }
+]
