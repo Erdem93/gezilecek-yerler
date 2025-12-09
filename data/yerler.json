@@ -4,7 +4,7 @@
     "name": "Ankara Kalesi",
     "lat": 39.9414,
     "lng": 32.8654,
-    "image": "/images/ankara-kalesi.jpg",
+    "image": "./images/ankara-kalesi.jpg",
     "description": "Ankara Kalesi."
   },
   {
@@ -12,9 +12,10 @@
     "name": "Atakule",
     "lat": 39.8938,
     "lng": 32.8600,
-    "image": "/images/atakule.jpg",
+    "image": "./images/atakule.jpg",
     "description": "Ankara'nın sembol kulelerinden biri."
   }
 ]
+
 
 
