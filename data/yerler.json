@@ -14,6 +14,38 @@
     "lng": 32.861027,
     "image": "./images/atakule.jpg",
     "description": "Ankara'nın sembol kulelerinden biri."
+  },
+  {
+    "id": "uzum-pazari",
+    "name": "Eski Üzüm Pazarı - Isparta",
+    "lat": 37.764089,
+    "lng": 30.555318,
+    "image": "./images/uzum-pazari-2.jpeg",
+    "description": "Mimar Sinan Camisi'ne gelir elde etmek için bedesten ile cami arasında 16 adet dükkân kövkeden ve ikişer katlı olarak yapılmışlardır. Dükkanların ikinci katına dar birer merdivenle çıkılır ve çatı tonozla örtülüdür."
+  },
+  {
+    "id": "egirdir-golu",
+    "name": "Eğirdir Gölü - Isparta",
+    "lat": 37.87536,
+    "lng": 30.85175,
+    "image": "./images/egirdir-golu.jpg",
+    "description": "Eğirdir Gölü, günün değişik zamanlarında farklı renkler alan, gün batımında seyrine doyum olmayan, etrafı elma ve şeftali bahçeleriyle çevrili, berrak plajlarıyla ünlü, Türkiye’nin dördüncü büyük doğa harikası gölüdür. "
+  },
+  {
+    "id": "mimar-sinan-camii",
+    "name": "Mimar Sinan Camii - Isparta",
+    "lat": 37.764302,
+    "lng": 30.554754,
+    "image": "./images/mimar-sinan-camii.jpg",
+    "description": "Üzüm Pazarı civarında, Isparta’nın en eski camileri arasında yeralan Firdevs Bey Camii; Kanuni Sultan Süleyman döneminde, Isparta Valisi Firdevs Paşa tarafından, 1561 yılında Mimar Sinan üslubunda yaptırılmıştır. Kare planlı ve tek kubbeli olan cami, kuzeyde beş kubbeli bir son cemaat yeri ile kuzeybatı köşesinde bir minareye sahiptir."
+  },
+  {
+    "id": "golcuk",
+    "name": "Gölcük Tabiat Parkı - Isparta",
+    "lat": 37.733777, 
+    "lng": 30.489253,
+    "image": "./images/golcuk.jpg",
+  "description": "Isparta’nın 12 kilometre güneybatısında, il merkezine 8 kilometre mesafede bulunan Gölcük, deniz seviyesinden 1300 metre yükseklikte olan bir krater gölüdür. Gölün etrafı 150-300 metre kadar yükselen ve volkanik küllerle kaplı tepelerle sınırlıdır. Daire şeklindeki gölün çapı 1,5 kilometre derinliği ise 30 metreyi bulmaktadır.\n\nIsparta ve yöre halkının günübirlik dinlenme, eğlenme ve spor ihtiyaçlarını karşılayan bir tabiat harikası olarak özelliğini yıllardan beri korumaktadır. Gölcük 1991 yılında tabiat parkı olarak tescil edilmiştir. Gölcük Tabiat Parkı’nda kızılçam, karaçam, meşe, sedir, akasya, akçakesme ve diğer maki türü bitkiler ile tavşan, tilki, sincap, kaplumbağa, yılan ve çeşitli kuş türleri bulunmaktadır. "
   }
 ]
 

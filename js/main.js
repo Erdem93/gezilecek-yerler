@@ -31,9 +31,11 @@ navigator.geolocation.getCurrentPosition(async (pos) => {
     // Listele
     const container = document.getElementById("places");
     container.innerHTML = places.map(p => `
-        <div style="margin-bottom:20px">
+        <div class="place-card">
             <h3>${p.name} (${p.distance.toFixed(2)} km)</h3>
-            <img src="${p.image}" width="200"><br>
+            <div class="card-image">
+                <img class="card-image-img" src="${p.image}" alt="${p.name}">
+            </div>
             <a href="yer.html?id=${p.id}">Detay</a>
         </div>
     `).join("");
