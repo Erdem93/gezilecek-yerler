@@ -20,6 +20,16 @@ navigator.geolocation.getCurrentPosition(async (pos) => {
 
     let places = await loadPlaces();
 
+    // populate city filter (unique cities)
+    const cityFilter = document.getElementById('city-filter');
+    const cities = Array.from(new Set(places.map(p => p.city).filter(Boolean))).sort();
+    cities.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        cityFilter.appendChild(opt);
+    });
+
     // Mesafe hesaplama
     places.forEach(p => {
         p.distance = distance(userLat, userLng, p.lat, p.lng);
@@ -28,16 +38,74 @@ navigator.geolocation.getCurrentPosition(async (pos) => {
     // Mesafeye göre sırala
     places.sort((a, b) => a.distance - b.distance);
 
-    // Listele
     const container = document.getElementById("places");
-    container.innerHTML = places.map(p => `
-        <div class="place-card">
-            <h3>${p.name} (${p.distance.toFixed(2)} km)</h3>
-            <div class="card-image">
-                <img class="card-image-img" src="${p.image}" alt="${p.name}">
+
+    function renderPlaces(list) {
+        container.innerHTML = list.map(p => `
+            <div class="place-card" data-href="yer.html?id=${p.id}&from=card">
+                <h3>${p.name} (${p.distance !== undefined ? p.distance.toFixed(2) + ' km' : ''})</h3>
+                <div class="card-image">
+                    <img class="card-image-img" src="${p.image}" alt="${p.name}">
+                </div>
+                <a class="detail-link" href="yer.html?id=${p.id}&from=card">Detay</a>
             </div>
-            <a href="yer.html?id=${p.id}">Detay</a>
-        </div>
-    `).join("");
+        `).join("");
+
+        // Make the whole card clickable, but allow inner links (like the Detay link) to work normally.
+        const cards = container.querySelectorAll('.place-card');
+        cards.forEach(card => {
+            // accessibility
+            card.tabIndex = 0;
+            card.setAttribute('role', 'link');
+
+            card.addEventListener('click', (e) => {
+                if (e.target.closest('a')) return;
+                const href = card.dataset.href;
+                if (href) window.location.href = href;
+            });
+
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    const href = card.dataset.href;
+                    if (href) window.location.href = href;
+                }
+            });
+        });
+    }
+
+    // initial render (no filter = all)
+    renderPlaces(places);
+
+    // filter handler
+    cityFilter.addEventListener('change', () => {
+        const val = cityFilter.value;
+        if (!val) renderPlaces(places);
+        else renderPlaces(places.filter(p => p.city === val));
+    });
+
+    // Make the whole card clickable, but allow inner links (like the Detay link) to work normally.
+    const cards = container.querySelectorAll('.place-card');
+    cards.forEach(card => {
+        // accessibility
+        card.tabIndex = 0;
+        card.setAttribute('role', 'link');
+
+        card.addEventListener('click', (e) => {
+            // if the click originated from an actual link inside the card, do nothing
+            if (e.target.closest('a')) return;
+            const href = card.dataset.href;
+            if (href) window.location.href = href;
+        });
+
+        card.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                // prevent page from scrolling on Space
+                e.preventDefault();
+                const href = card.dataset.href;
+                if (href) window.location.href = href;
+            }
+        });
+    });
 
 });

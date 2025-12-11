@@ -15,6 +15,13 @@ function getId() {
 
     if (!place) return;
 
+    // If the page was reached from a card click, add a body class so CSS can change the
+    // overall page background specifically for that navigation path.
+    const params = new URL(window.location.href).searchParams;
+    if (params.get('from') === 'card') {
+        document.body.classList.add('from-card');
+    }
+
     document.getElementById("content").innerHTML = `
         <div class="place-detail">
             <h1 class="place-name">${place.name}</h1>

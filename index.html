@@ -7,7 +7,15 @@
 </head>
 <body>
     <!-- <a class="home-button" href="index.html" aria-label="Ana Sayfa">🏠 Ana Sayfa</a> -->
-    <h1>Yakınınızdaki Yerler</h1>
+    <div class="top-bar">
+        <h1>Yakınınızdaki Yerler</h1>
+        <div class="filter-group">
+            <label for="city-filter">Şehir:</label>
+            <select id="city-filter">
+                <option value="">Tüm Şehirler</option>
+            </select>
+        </div>
+    </div>
     <div id="places"></div>
 
     <script src="js/main.js"></script>

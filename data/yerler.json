@@ -2,50 +2,56 @@
   {
     "id": "ankara-kalesi",
     "name": "Ankara Kalesi",
+    "city": "Ankara",
     "lat": 39.941405,
     "lng": 32.865453,
     "image": "./images/ankara-kalesi.jpg",
-    "description": "Ankara Kalesi."
+    "description": "Ankara’nın binlerce yıllık tarihine tanıklık eden Ankara Kalesi, Altındağ ilçesinde yer alır ve şehrin en köklü simgelerinden biridir. Ne zaman yapıldığı kesin olarak bilinmemekle birlikte, Galatların şehre yerleştiği dönemde var olduğu düşünülen kale; Roma, Bizans, Selçuklu ve Osmanlı dönemlerinde çeşitli onarımlar görerek günümüze kadar ulaşmıştır. Stratejik konumu nedeniyle tarih boyunca şehrin savunmasında kilit bir rol oynamış ve her medeniyetten izler taşıyarak bugünkü çok katmanlı yapısına kavuşmuştur. \n\n Mimari açıdan iç ve dış kale olmak üzere iki ana bölümden oluşan yapı, \"Ankara Taşı\" ve çevredeki antik yapılardan toplanan malzemelerle inşa edilmiştir. İç kale bölümünde, yüksekliği 14-16 metreyi bulan surlar ve savunmayı güçlendiren 42 adet beşgen burç yer alır. Kalenin surlarına çıkıldığında, başkentin modern yüzü ile tarihi dokusunun iç içe geçtiği 360 derecelik panoramik bir Ankara manzarası ziyaretçileri karşılar. \n\n Atakule’nin aksine, Ankara Kalesi’nin surlarını ve tarihi sokaklarını gezmek için herhangi bir ücret talep edilmemektedir; kaleye girişler herkes için ücretsizdir. Ziyaretçiler günün her saatinde kalenin tarihi atmosferini soluyabilir, surlardan şehri izleyebilirler. Ancak kale sınırları içerisinde veya hemen yakınında bulunan Anadolu Medeniyetleri Müzesi veya Rahmi Koç Müzesi gibi özel müze alanlarına girişlerde ayrı ücretlendirme veya Müzekart uygulaması geçerli olabilir. \n\n Kalenin içi, restore edilmiş geleneksel Ankara evleri ile adeta yaşayan bir açık hava müzesi görünümündedir. Dar ve kıvrımlı sokaklarda sıralanan bu tarihi konaklar, günümüzde kafe, restoran, antika dükkânı ve hediyelik eşya mağazası olarak hizmet vermektedir. Ziyaretçiler burada hem tarihi dokuyu keşfedip fotoğraf çekebilir hem de yöresel lezzetleri tadarak geçmişe keyifli bir yolculuk yapabilirler."
   },
   {
     "id": "atakule",
     "name": "Atakule",
+    "city": "Ankara",
     "lat": 39.890251,
     "lng": 32.861027,
     "image": "./images/atakule.jpg",
-    "description": "Ankara'nın sembol kulelerinden biri."
+    "description": "Ankara’nın en önemli sembollerinden biri olan Atakule, Çankaya semtinde yer alır ve modern mimarisiyle şehrin siluetini belirleyen ikonik bir yapıdır. Mimar Ragıp Buluç tarafından tasarlanan ve 13 Ekim 1989 tarihinde açılışı yapılan bu yapı, aynı zamanda Türkiye'nin ikinci, Ankara'nın ise ilk alışveriş merkezi olma özelliğini taşır. Yaklaşık 125 metre yüksekliğindeki kule, şehrin pek çok noktasından görülebilen heybetli bir duruşa sahiptir. \n\n Yapının en dikkat çekici bölümü, tepesinde yer alan ve 360 derece panoramik şehir manzarası sunan seyir terasıdır. Buradan Anıtkabir’den Ankara Kalesi’ne kadar başkentin tüm güzelliklerini kuş bakışı izlemek mümkündür. Ayrıca kulede bulunan döner restoran platformu, kendi ekseni etrafında bir saatte tam tur atarak ziyaretçilerine yemek yerken sürekli değişen dinamik bir manzara deneyimi sunar. \n\n Atakule'nin alışveriş merkezi ve mağaza bölümlerine giriş herkes için serbesttir; ancak kulenin zirvesinde bulunan seyir terasına çıkışlar ücretlidir. Ziyaretçiler belirli bir bilet bedeli karşılığında asansörlerle tepeye ulaşarak bu manzarayı izleyebilirler. \n\n Kulenin alt kısmında yer alan alışveriş merkezi ise yenilenen yüzüyle modern bir yaşam alanı sunmaktadır. İçerisinde Big Chefs, Timboo Cafe, Luigi's Ristorante Bar ve Starbucks gibi popüler yeme-içme mekanlarının yanı sıra Beymen Club, Vakko, Dyson ve Mac gibi seçkin mağazalar bulunmaktadır. Cinnah Caddesi ile Çankaya Caddesi’nin kesiştiği noktada, Botanik Parkı’nın hemen karşısında yer alan yapıya Kızılay veya Ulus’tan toplu taşıma ile kolayca ulaşılabilir."
   },
   {
     "id": "uzum-pazari",
     "name": "Eski Üzüm Pazarı - Isparta",
+    "city": "Isparta",
     "lat": 37.764089,
     "lng": 30.555318,
     "image": "./images/uzum-pazari-2.jpeg",
-    "description": "Mimar Sinan Camisi'ne gelir elde etmek için bedesten ile cami arasında 16 adet dükkân kövkeden ve ikişer katlı olarak yapılmışlardır. Dükkanların ikinci katına dar birer merdivenle çıkılır ve çatı tonozla örtülüdür."
+    "description": "Isparta’nın kalbinde, Mimar Sinan Camii’nin (Firdevs Bey Camii) hemen yanı başında yer alan Eski Üzüm Pazarı, 1561 yılından bu yana şehrin ticari hayatına tanıklık eden, Osmanlı mimarisinin zarif detaylarını günümüze taşıyan, kövke taşından yapılmış dükkanlarıyla ünlü tarihi bir çarşıdır. Kanuni Sultan Süleyman döneminde Isparta Valisi Firdevs Bey tarafından, camiye gelir sağlamak amacıyla inşa ettirilen bu yapı, adını vaktiyle burada kurulan ve bölgenin meşhur üzümlerinin satıldığı pazardan almıştır. \n\n Günümüzde üzüm satıcılarının yerini kuyumcular, hediyelik eşya dükkanları ve nostaljik kahvehaneler almış olsa da çarşı, 460 yılı aşkın süredir canlılığını korumaktadır. İki katlı olarak tasarlanan ve dar merdivenlerle üst katlarına çıkılan dükkanlar, tonozlu çatı örtüleriyle dikkat çeker. Yakın zamanda geçirdiği kapsamlı restorasyon ile tarihi dokusu ön plana çıkarılan pazar, ziyaretçilerine adeta zamanda yolculuk yapma fırsatı sunar. \n\n Şehrin en işlek noktalarından birinde bulunan Eski Üzüm Pazarı'nı gezmek ve bu tarihi atmosferi solumak tamamen ücretsizdir. Ziyaretçiler dilerlerse bedesteni dolaşabilir, tarihi dükkanlardan alışveriş yapabilir veya asırlık çınarların gölgesinde bir yorgunluk kahvesi içebilirler. Çarşı içindeki işletmelerden alınan ürün veya hizmetler ise işletmelerin kendi tarifelerine tabidir."
   },
   {
     "id": "egirdir-golu",
     "name": "Eğirdir Gölü - Isparta",
+    "city": "Isparta",
     "lat": 37.87536,
     "lng": 30.85175,
     "image": "./images/egirdir-golu.jpg",
-    "description": "Eğirdir Gölü, günün değişik zamanlarında farklı renkler alan, gün batımında seyrine doyum olmayan, etrafı elma ve şeftali bahçeleriyle çevrili, berrak plajlarıyla ünlü, Türkiye’nin dördüncü büyük doğa harikası gölüdür. "
+    "description": "Isparta’nın Eğirdir ilçesinde yer alan ve Sultan ile Karakuş Dağları’nın gölgesinde uzanan Eğirdir Gölü, tektonik yapısı ve kireçli tabanı sayesinde turkuazdan maviye çalan eşsiz bir renk skalasına sahiptir. Türkiye’nin en büyük ikinci tatlı su gölü olma özelliğini taşıyan bu havza, biyolojik çeşitliliği, temiz havası ve tarihi zenginlikleriyle Göller Bölgesi'nin en önemli turizm merkezlerinden biridir. \n\n Eğirdir Gölü, günün değişik zamanlarında farklı renkler alan, gün batımında seyrine doyum olmayan, etrafı elma ve şeftali bahçeleriyle çevrili, berrak plajlarıyla ünlü, Türkiye’nin dördüncü büyük doğa harikası gölüdür. Halk arasında bu değişken renk yapısı ve rüzgarın etkisiyle büründüğü tonlar nedeniyle \"Yedi Renkli Göl\" olarak da bilinen göl, doğa fotoğrafçılarından kamp tutkunlarına kadar pek çok ziyaretçiyi kendine hayran bırakır. \n\n Göl üzerinde, ana karaya bir yol ile bağlanmış olan Can Ada ve Yeşilada (Nis) isimli iki önemli ada bulunmaktadır. Özellikle Yeşilada; tarihi ahşap evleri, dar sokakları, Ayastefanos Kilisesi ve göl balıklarının tadılabileceği restoranlarıyla huzurlu bir gezi rotası sunar. Yaz aylarında ise Türkiye'nin Mavi Bayraklı tek göl plajı olan Altınkum Plajı gibi sığ ve temiz kıyılar, yüzmek isteyenler için popüler bir durak haline gelir. \n\n Eğirdir Gölü'nü ziyaret etmek, manzaranın tadını çıkarmak veya adalar üzerinde gezinti yapmak ücretsizdir. Ancak göl kenarındaki organize plaj alanlarında şezlong kiralama, kamp alanlarını kullanma veya özel işletmelerin sunduğu yeme-içme hizmetlerinden yararlanma durumunda belirli ücretler söz konusu olabilir."
   },
   {
     "id": "mimar-sinan-camii",
     "name": "Mimar Sinan Camii - Isparta",
+    "city": "Isparta",
     "lat": 37.764302,
     "lng": 30.554754,
     "image": "./images/mimar-sinan-camii.jpg",
-    "description": "Üzüm Pazarı civarında, Isparta’nın en eski camileri arasında yeralan Firdevs Bey Camii; Kanuni Sultan Süleyman döneminde, Isparta Valisi Firdevs Paşa tarafından, 1561 yılında Mimar Sinan üslubunda yaptırılmıştır. Kare planlı ve tek kubbeli olan cami, kuzeyde beş kubbeli bir son cemaat yeri ile kuzeybatı köşesinde bir minareye sahiptir."
+    "description": "Isparta şehir merkezinde, Eski Üzüm Pazarı'nın hemen bitişiğinde yükselen Mimar Sinan Camii (Firdevs Bey Camii), 16. yüzyıl Osmanlı mimarisinin zarafetini günümüze taşıyan en önemli anıtsal yapılardan biridir. Kanuni Sultan Süleyman döneminde, Isparta Valisi Firdevs Bey tarafından 1561 yılında yaptırılan cami, Türk mimarlık tarihinin büyük ustası Mimar Sinan’ın imzasını taşımasıyla şehre ayrı bir değer katar.\n\n Klasik Osmanlı mimarisi üslubunda, kare planlı olarak inşa edilen yapı, kurşun kaplı tek ve heybetli kubbesiyle dikkat çeker. Kesme taş işçiliğinin en güzel örneklerinden biri olan caminin iç mekanı, dönemin ruhunu yansıtan sade kalem işi süslemeler ve vitraylarla aydınlatılmıştır. Tek şerefeli zarif minaresi ve avlusundaki şadırvanıyla bir bütünlük oluşturan yapı, \"Mimar Sinan Üslubu\"nun Anadolu'daki nadide temsilcilerinden biridir.\n\n Günümüzde hala aktif bir ibadethane olarak kullanılan Mimar Sinan Camii'ni ziyaret etmek tamamen ücretsizdir. Ziyaretçiler, namaz vakitleri dışında caminin içini sessizce gezebilir, Mimar Sinan'ın dehasını yerinde inceleyebilirler. İbadethane kuralları gereği ziyaret sırasında uygun kıyafet giyilmesi ve manevi atmosfere saygı gösterilmesi beklenmektedir."
   },
   {
     "id": "golcuk",
     "name": "Gölcük Tabiat Parkı - Isparta",
+    "city": "Isparta",
     "lat": 37.733777, 
     "lng": 30.489253,
     "image": "./images/golcuk.jpg",
-  "description": "Isparta’nın 12 kilometre güneybatısında, il merkezine 8 kilometre mesafede bulunan Gölcük, deniz seviyesinden 1300 metre yükseklikte olan bir krater gölüdür. Gölün etrafı 150-300 metre kadar yükselen ve volkanik küllerle kaplı tepelerle sınırlıdır. Daire şeklindeki gölün çapı 1,5 kilometre derinliği ise 30 metreyi bulmaktadır.\n\nIsparta ve yöre halkının günübirlik dinlenme, eğlenme ve spor ihtiyaçlarını karşılayan bir tabiat harikası olarak özelliğini yıllardan beri korumaktadır. Gölcük 1991 yılında tabiat parkı olarak tescil edilmiştir. Gölcük Tabiat Parkı’nda kızılçam, karaçam, meşe, sedir, akasya, akçakesme ve diğer maki türü bitkiler ile tavşan, tilki, sincap, kaplumbağa, yılan ve çeşitli kuş türleri bulunmaktadır. "
+  "description": "Isparta şehir merkezine yaklaşık 8-12 kilometre mesafede bulunan Gölcük Tabiat Parkı, sönmüş bir yanardağın kraterinde oluşmuş, jeolojik yapısıyla Türkiye’nin nadir doğal güzelliklerinden biridir. Deniz seviyesinden 1.380 metre yükseklikte yer alan bu krater gölü (kaldera), Nemrut Kalderası ile birlikte Türkiye’nin en önemli volkanik oluşumlarından biri olarak kabul edilir. Etrafı 150 ila 300 metreyi bulan volkanik küllü tepelerle çevrili olan göl, dairevi yapısı ve derinliğiyle ziyaretçilerine büyüleyici bir manzara sunar.\n\n Tabiat parkı, zengin bitki örtüsü ve yaban hayatıyla adeta şehrin oksijen deposudur. Gölün çevresi kızılçam, karaçam, meşe, sedir ve akasya ağaçlarıyla kaplı olup, yeşilin her tonunu barındıran huzurlu bir atmosfere sahiptir. Bu doğal yaşam alanı; tavşan, tilki, sincap, porsuk ve çeşitli kuş türlerine ev sahipliği yaparken, göl suları da sazan ve kadife gibi balık türlerini barındırır. \n\n Isparta halkının en gözde mesire yerlerinden biri olan park, doğa yürüyüşü, fotoğrafçılık, piknik ve bisiklet turları gibi aktiviteler için ideal bir ortam sağlar. Göl kenarındaki yürüyüş yollarında krater gölünün dinginliğini izleyebilir, park içerisinde bulunan kır lokantası ve piknik alanlarında keyifli vakit geçirebilirsiniz. \n\n Gölcük Tabiat Parkı, koruma statüsünde bir alan olduğu için girişler ücretlidir. Ziyaretçiler araçlarıyla veya yaya olarak belirli bir giriş bedeli ödeyerek bu tabiat harikasını ziyaret edebilirler. "
   }
 ]
 

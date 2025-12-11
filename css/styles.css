@@ -3,7 +3,37 @@ body {
   font-family: Arial, sans-serif;
   text-align: center; /* center index.html text as requested */
   margin: 20px;
+  background-color: #bacdf5;
 }
+
+
+/* Top bar with title and right-aligned filter */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  max-width: 1000px;
+  margin: 0 auto 12px auto;
+  padding: 0 12px;
+}
+
+.top-bar h1 {
+  margin: 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.filter-group {
+  margin-left: auto; /* push group to the right */
+}
+
+@media (max-width: 520px) {
+  .top-bar { flex-direction: column; align-items: stretch; }
+  .top-bar h1 { text-align: center; }
+  .filter-group { margin-left: 0; margin-top: 8px; text-align: center; }
+}
+
 
 #places {
   margin-top: 20px;
@@ -15,14 +45,30 @@ body {
 
 /* Card style for each place listed by main.js */
 .place-card {
-  border: 2px solid #00ff9d;
+  border: 2px solid #4a403a;
   border-radius: 8px;
   padding: 16px;
   width: 100%;
   margin: 0; /* grid gap handles spacing */
   text-align: center; /* center content inside the card */
   box-sizing: border-box;
-  background: #fff;
+  background: #e6dace;
+  display: block;
+  color: #4a403a; /* default text color for the card */
+  text-decoration: none; /* remove underline */
+  cursor: pointer; /* indicate card is clickable */
+}
+
+.place-card:hover {
+  background: #4a403a;
+  color: #e6dace;
+
+}
+
+/* Make links inside a hovered card inherit the white color so they don't stay blue */
+.place-card:hover a,
+.place-card:hover a:visited {
+  color: #a67c52;
 }
 
 .place-card .card-image {
@@ -41,7 +87,7 @@ body {
 }
 
 .place-card a {
-  color: #0066cc;
+  color: #4a403a;
   text-decoration: none;
 }
 
@@ -55,10 +101,21 @@ body {
   margin: 0 auto;
   padding: 12px;
   text-align: center; /* center name, image and description */
+  border: 2px solid #4a403a;
+  border-radius: 20px;
+  background: #e6dace;
 }
 
 .place-detail .place-name {
   margin-top: 0;
+  /* keep the title visible when scrolling */
+  position: sticky;
+  top: 18px; /* leaves a little space from the top (adjust if the home button overlaps) */
+  background: #4a403a; /* solid background so content doesn't show through */
+  padding: 6px 12px;
+  z-index: 60;
+  border-radius: 6px;
+  color: #e6dace;
 }
 
 /* Detail image: make images appear visually similar without forcing exact same size */
@@ -69,6 +126,7 @@ body {
   margin: 12px auto;
   overflow: hidden;
   border-radius: 6px;
+  border: 4px solid #4a403a;
 }
 
 .place-detail .detail-image img {
@@ -81,6 +139,7 @@ body {
 .place-detail .place-description {
   text-align: center;
   line-height: 1.4;
+  color: #4a403a;
 }
 
 .place-detail .actions {
@@ -130,3 +189,15 @@ body {
 @media (max-width: 480px) {
   .home-button { top: 8px; left: 8px; padding: 6px 8px; font-size: 14px; }
 }
+
+/* Apply a global dark background only when arriving from a card click */
+body.from-card {
+  background: #bacdf5;
+  color: #e6dace;
+}
+
+/* Make sure home button remains visible on dark background */
+/* body.from-card .home-button {
+  background: #ffffffcc;
+  color: #004085;
+} */
